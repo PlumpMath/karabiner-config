@@ -6,8 +6,8 @@
 	</appdef>
 
 	<item>
-		<name>Alt to command</name>
-		<identifier>private.alt_to_command</identifier>
+		<name>Alt to command for Intellij</name>
+		<identifier>private.alt_to_command_for_intellij</identifier>
 		<only>INTELLIJ</only>
 		<autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
 		<autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::COMMAND_L</autogen>
