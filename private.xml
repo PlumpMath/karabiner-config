@@ -6,10 +6,23 @@
 	</appdef>
 
 	<item>
-		<name>Alt to command for Intellij</name>
+		<name>Alt-shift-J to command-shift-j for Intellij</name>
 		<identifier>private.alt_to_command_for_intellij</identifier>
 		<only>INTELLIJ</only>
-		<autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
-		<autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::COMMAND_L</autogen>
+		<autogen>
+			__KeyToKey__ 
+			KeyCode::J, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L,
+			KeyCode::J, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+		</autogen>
+		<autogen>
+			__KeyToKey__ 
+			KeyCode::J, ModifierFlag::OPTION_R | ModifierFlag::SHIFT_L,
+			KeyCode::J, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+		</autogen>
+		<autogen>
+			__KeyToKey__ 
+			KeyCode::J, ModifierFlag::OPTION_R | ModifierFlag::SHIFT_R,
+			KeyCode::J, ModifierFlag::COMMAND_L | ModifierFlag::SHIFT_L
+		</autogen>
 	</item>
 </root>
