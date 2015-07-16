@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root>
+	<appdef>
+		<appname>INTELLIJ</appname>
+		<equal>com.jetbrains.intellij.ce</equal>
+	</appdef>
+
+	<item>
+		<name>Alt to command</name>
+		<identifier>private.alt_to_command</identifier>
+		<only>INTELLIJ</only>
+		<autogen>__KeyToKey__ KeyCode::OPTION_L, KeyCode::COMMAND_L</autogen>
+		<autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::COMMAND_L</autogen>
+	</item>
+</root>
